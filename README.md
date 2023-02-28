@@ -98,7 +98,7 @@ The complete evaluation results of the proposed model are summarized as follows:
 ## Visualization
 Comparison with ablated models (without feature-based alignment / without cross-aware early fusion / without both components (Basic model)) :
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/74402562/202837965-984ce61f-637a-4c61-9a85-cbacdc21c240.png" width="80%" height="80%">
+    <img src="https://user-images.githubusercontent.com/74402562/221766582-cbb3c4b2-892b-48c7-aafb-3b9caaaf9c88.png" width="80%" height="80%">
 </p>
 <br/>
 
