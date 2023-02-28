@@ -104,6 +104,6 @@ Comparison with ablated models (without feature-based alignment / without cross-
 
 Comparison with previous state-of-the-art models (late fusion model (VLT) / vision-only early fusion model (LAVT)) :
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/74402562/202836985-3c4ce113-cdd6-4283-9be4-545a7d732a80.png" width="90%" height="90%">
+    <img src="https://user-images.githubusercontent.com/74402562/221769780-f60e4e85-8943-4869-94fe-d43970148129.png" width="90%" height="90%">
 </p>
 <br/>
