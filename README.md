@@ -96,7 +96,7 @@ The complete evaluation results of the proposed model are summarized as follows:
 | G-Ref test      | 71.54 | 66.38 | 59.00 | 48.21 | 23.10 |    62.09 |   63.75     |
 
 ## Visualization
-Comparison with ablated models (without cross-aware early fusion / without feature-based alignment / without both components (Basic model)) :
+Comparison with ablated models (without both components (Basic model) / without cross-aware early fusion / without feature-based alignment) :
 <p align="center">
     <img src="https://user-images.githubusercontent.com/74402562/221766582-cbb3c4b2-892b-48c7-aafb-3b9caaaf9c88.png" width="80%" height="80%">
 </p>
