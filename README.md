@@ -3,6 +3,9 @@
 <p align="center">
     <img src="https://user-images.githubusercontent.com/74402562/201589583-0bedfbc7-e28a-4f78-9135-f37612c3c7d8.png" width="90%" height="90%">
 </p>
+<p align="center">
+Figure 1. Overall architecture of CrossVLT
+</p>
 <br/>
 This repo is the implementation of "Cross-aware Early Fusion with Stage-divided Vision and Language Transformer
 Encoders for Referring Image Segmentation" and is organized as follows: 
