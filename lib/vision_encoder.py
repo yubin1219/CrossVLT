@@ -616,7 +616,7 @@ class FusionLayer(nn.Module):
         self.values_l = nn.Linear(self.l_dim, self.dim)
         
         self.w_v = nn.Sequential(nn.Conv1d(self.dim, self.v_dim, kernel_size=1, stride=1),
-                    nn.InstanceNorm1d(self.dim))
+                    nn.InstanceNorm1d(self.v_dim))
         
         self.project_mm = nn.Sequential(nn.Conv1d(v_dim, v_dim, 1, 1),
                                         nn.GELU()
