@@ -8,7 +8,7 @@ from torch import nn
 
 import transforms as T
 import utils
-from SVLT import SegModel
+from CrossVLT import SegModel
 
 import numpy as np
 from PIL import Image
