@@ -18,7 +18,7 @@ import random
 import torch.nn.functional as F
 
 import gc
-from SVLT import SegModel
+from CrossVLT import SegModel
 from data.dataset_refer_bert import ReferDataset
 
 def get_dataset(image_set, transform, args, eval_mode=False):
