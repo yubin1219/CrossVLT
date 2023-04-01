@@ -1,3 +1,5 @@
+![Python 3.8](https://img.shields.io/badge/python-3.8-green.svg)
+
 # Cross-aware Early Fusion with Stage-divided Vision and Language Transformer Encoders for Referring Image Segmentation
 
 <p align="center">
