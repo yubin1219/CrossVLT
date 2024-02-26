@@ -1,6 +1,6 @@
 ![Python 3.8](https://img.shields.io/badge/python-3.8-green.svg)
 
-# Cross-aware Early Fusion with Stage-divided Vision and Language Transformer Encoders for Referring Image Segmentation
+# Cross-aware Early Fusion with Stage-divided Vision and Language Transformer Encoders for Referring Image Segmentation (Published in IEEE Transactions on Multimedia 2023)
 
 <p align="center">
     <img src="https://user-images.githubusercontent.com/74402562/201589583-0bedfbc7-e28a-4f78-9135-f37612c3c7d8.png" width="90%" height="90%">
