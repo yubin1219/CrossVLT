@@ -751,7 +751,7 @@ class BertModel(BertPreTrainedModel):
         self._init_weights()
         
     def _init_weights(self):
-        bert_pre = torch.load("/pretrained/pytorch_model.bin")
+        bert_pre = torch.load("./pretrained/pytorch_model.bin")
         model_dict = self.state_dict()
         pretrained_dict_new = {}
         for k, v in bert_pre.items():
