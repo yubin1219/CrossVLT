@@ -112,7 +112,7 @@ def evaluate(model, data_loader, device):
                     eval_seg_iou = eval_seg_iou_list[n_eval_iou]
                     seg_correct[n_eval_iou] += (this_iou >= eval_seg_iou)
                 seg_total += 1
-                sen = sent_list[j][0].replace('/','')
+                # sen = sent_list[j][0].replace('/','')
  
     mean_IoU = np.array(mean_IoU)
     mIoU = np.mean(mean_IoU)
