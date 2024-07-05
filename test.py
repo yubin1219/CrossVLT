@@ -28,6 +28,9 @@ def get_dataset(image_set, transform, args):
     return ds, num_classes
 
 def overlay_davis(image, mask, colors=[[0, 0, 0], [255, 0, 0]], cscale=1, alpha=0.4):
+    """
+    Use for visualiation of segmentation results
+    """
     from scipy.ndimage import binary_dilation
 
     colors = np.reshape(colors, (-1, 3))
@@ -71,16 +74,16 @@ def evaluate(model, data_loader, device):
                                                    sentences.to(device), attentions.to(device)
             sentences = sentences.squeeze(1)
             attentions = attentions.squeeze(1)
-            gt = torch.cat([target,target,target], dim=0)
-            original_h, original_w = img_ndarray.size(1), img_ndarray.size(2)
+            # gt = torch.cat([target,target,target], dim=0)
+            #original_h, original_w = img_ndarray.size(1), img_ndarray.size(2)
                         
-            GT = F.interpolate(target.unsqueeze(0).float(), (original_h, original_w))
-            GT = GT.squeeze()
-            GT = GT.cpu().data.numpy()
-            GT = GT.astype(np.int8)
+            # GT = F.interpolate(target.unsqueeze(0).float(), (original_h, original_w))
+            # GT = GT.squeeze()
+            # GT = GT.cpu().data.numpy()
+            # GT = GT.astype(np.int8)
             target = target.cpu().data.numpy()
-            img_ndarray = img_ndarray.squeeze()
-            img_ndarray = img_ndarray.cpu().data.numpy()
+            # img_ndarray = img_ndarray.squeeze()
+            # img_ndarray = img_ndarray.cpu().data.numpy()
             
             iters += 1
             for j in range(sentences.size(-1)):
@@ -88,13 +91,13 @@ def evaluate(model, data_loader, device):
                 
                 output_mask = output.argmax(1) # (1, 1, 480, 480)
                 
-                result = output.argmax(1, keepdim=True)
+                # result = output.argmax(1, keepdim=True)
 
-                result = F.interpolate(result.float(), (original_h, original_w))
+                # result = F.interpolate(result.float(), (original_h, original_w))
                 
-                result = result.squeeze()                
+                # result = result.squeeze()                
 
-                masks_pred = torch.cat([output_mask,output_mask,output_mask], dim=0)
+                # masks_pred = torch.cat([output_mask,output_mask,output_mask], dim=0)
                 output_mask = output_mask.cpu().data.numpy()
                 
                 I, U = computeIoU(output_mask, target)
