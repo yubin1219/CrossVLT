@@ -113,7 +113,7 @@ Comparison with previous state-of-the-art models (late fusion model (VLT) / visi
 </p>
 <br/>
 
-<section class="section" id="BibTeX">
+<section class="section" id="Citing">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
       <pre><code>@article{cho2023cross,
