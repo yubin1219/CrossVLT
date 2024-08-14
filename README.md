@@ -112,3 +112,16 @@ Comparison with previous state-of-the-art models (late fusion model (VLT) / visi
     <img src="https://user-images.githubusercontent.com/74402562/221769780-f60e4e85-8943-4869-94fe-d43970148129.png" width="90%" height="90%">
 </p>
 <br/>
+
+<section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@article{cho2023cross,
+  title={Cross-aware Early Fusion with Stage-divided Vision and Language Transformer Encoders for Referring Image Segmentation},
+  author={Cho, Yubin and Yu, Hyunwoo and Kang, Suk-Ju},
+  journal={IEEE Transactions on Multimedia},
+  year={2023},
+  publisher={IEEE}
+}</code></pre>
+    </div>
+</section>
