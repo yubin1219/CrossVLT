@@ -115,7 +115,7 @@ Comparison with previous state-of-the-art models (late fusion model (VLT) / visi
 
 <section class="section" id="Citation">
     <div class="container is-max-desktop content">
-      <h2 class="title">BibTeX</h2>
+      <h2 class="title">Citation</h2>
       <pre><code>@article{cho2023cross,
   title={Cross-aware Early Fusion with Stage-divided Vision and Language Transformer Encoders for Referring Image Segmentation},
   author={Cho, Yubin and Yu, Hyunwoo and Kang, Suk-Ju},
